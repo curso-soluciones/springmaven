@@ -14,7 +14,7 @@ public class TestUsuarios {
     
     public static void main(String args[]){
        DAOUsuario3Impl uu=new DAOUsuario3Impl();
-       uu.agregarProducto(new Usuario3("ggga","xxx",'N'));
+       uu.agregarProducto(new Usuario3("perros políticos mierderos","xxx",'N'));
         System.out.println("Usuario agregado con mucho exito");
     }
     

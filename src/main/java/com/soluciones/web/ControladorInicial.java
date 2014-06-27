@@ -73,7 +73,7 @@ public class ControladorInicial {
     /*Metodo post para guardar un usuario con todos sus campos*/
     @RequestMapping(value="/json", method=RequestMethod.POST, headers={"Accept=Application/json"})
     public @ResponseBody String guardarUsuario(@RequestBody String json){
-     System.out.println("Hola putotes de a baro"+json);
+     System.out.println("Chingas a tu puta perra madre EPN!!!"+json);
      
      Map<String,String> map = new HashMap<String,String>();
 	ObjectMapper mapper = new ObjectMapper();
